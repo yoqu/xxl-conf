@@ -2,7 +2,8 @@
 <configuration debug="false" scan="true" scanPeriod="1 seconds">
 
     <contextName>logback</contextName>
-    <property name="log.path" value="/data/applogs/xxl-conf/xxl-conf-admin.log"/>
+
+    <property name="log.path" value="/home/logs/xxl-conf/xxl-conf-admin.log"/>
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
        <!-- <filter class="ch.qos.logback.classic.filter.ThresholdFilter" >

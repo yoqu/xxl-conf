@@ -12,9 +12,20 @@ public class DemoConf {
 	/**
 	 * XXL-CONF：@XxlConf 注解方式
 	 */
-	@XxlConf("default.key02")
-	public String paramByAnno;
+	@XxlConf("kuyin-movie.dubbo.registry.address")
+	private String paramByAnno;
 
+	public String getParamByAnno() {
+		return paramByAnno;
+	}
+
+	public void setParamByAnno(String paramByAnno) {
+		this.paramByAnno = paramByAnno;
+	}
+
+	public String getParamByXml() {
+		return paramByXml;
+	}
 
 	/**
 	 * XXL-CONF：$XxlConf{default.key03} XML占位符方式

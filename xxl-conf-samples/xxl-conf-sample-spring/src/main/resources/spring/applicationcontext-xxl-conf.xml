@@ -20,7 +20,7 @@
 
 	<!-- ********************************* 测试示例（可删除） ********************************* -->
 	<bean id="demoConf" class="com.xxl.conf.sample.demo.DemoConf">
-		<property name="paramByXml" value="$XxlConf{default.key03}" />
+		<property name="paramByXml" value="$XxlConf{kuyin-movie.dubbo.registry.address}" />
 	</bean>
 
 </beans>

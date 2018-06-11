@@ -66,7 +66,7 @@ public class IndexController {
 		 * 			- 支持动态推送更新；
 		 * 			- 支持设置配置默认值；
 		 */
-		list.add("2、@XxlConf 注解方式: default.key02=" + demoConf.paramByAnno);
+		list.add("2、@XxlConf 注解方式: default.key02=" + demoConf.getParamByAnno());
 
 		/**
 		 * 方式3: XML占位符方式
