@@ -167,6 +167,21 @@
 				</repository>
 			</distributionManagement>
 		</profile>
+		<profile>
+			<id>iflytek</id>
+			<distributionManagement>
+				<repository>
+					<id>iflytek-release</id>
+					<url>http://maven.iflytek.com:8081/nexus/content/repositories/CTI-snapshot/</url>
+					<!-- 需要配置hosts 172.31.10.50 -->
+				</repository>
+				<snapshotRepository>
+					<id>nexus-snapshots</id>
+					<url>http://maven.iflytek.com:8081/nexus/content/repositories/CTI-snapshot/</url>
+					<!-- 需要配置hosts 172.31.10.50 -->
+				</snapshotRepository>
+			</distributionManagement>
+		</profile>
 	</profiles>
 
 </project>
