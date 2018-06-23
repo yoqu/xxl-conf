@@ -49,7 +49,7 @@ public class XxlConfLocalCacheConf {
                     try {
                         TimeUnit.SECONDS.sleep(60);
                         reloadAll();
-                        logger.info(">>>>>>>>>> xxl-conf, refresh thread reloadAll success.");
+                        logger.debug(">>>>>>>>>> xxl-conf, refresh thread reloadAll success.");
                     } catch (Exception e) {
                         if (!refreshThreadStop) {
                             logger.error(">>>>>>>>>> xxl-conf, refresh thread error.");
