@@ -122,7 +122,7 @@ public class XxlConfLocalCacheConf {
 
                 CacheNode existNode = xxlConfLocalCache.get(key);
                 if (existNode!=null && existNode.getValue()!=null && existNode.getValue().equals(zkData)) {
-                    logger.debug(">>>>>>>>>> xxl-conf: RELOAD unchange-pass [{}].", key);
+//                    logger.debug(">>>>>>>>>> xxl-conf: RELOAD unchange-pass [{}].", key);
                 } else {
                     set(key, zkData, "RELOAD");
                 }
